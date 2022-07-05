@@ -3,11 +3,6 @@ from discord.ext import commands, tasks
 from discord.utils import get
 from discord.ext.commands import has_permissions, CheckFailure
 import asyncio
-from bs4 import BeautifulSoup
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium import webdriver
-from PIL import Image
-import base64, os, platform, re, requests, time
 import time
 import os
 import random
